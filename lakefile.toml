@@ -1,0 +1,15 @@
+name = "IMO2025"
+version = "0.1.0"
+defaultTargets = ["IMO2025"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.30.0-rc2"
+
+[[lean_lib]]
+name = "IMO2025"
