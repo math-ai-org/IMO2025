@@ -1,6 +1,6 @@
 import Mathlib
 
-namespace Imo2025P5
+namespace IMO2025P5
 
 set_option autoImplicit false
 
@@ -750,4 +750,4 @@ theorem imo2025_p5 :
   · exact ⟨fun h => lt_of_not_ge (fun hc => alice_not_winning_of_le hc h), alice_wins_of_lt⟩
   · exact ⟨fun h => lt_of_not_ge (fun hc => bazza_not_winning_of_le hc h), bazza_wins_of_lt⟩
 
-end Imo2025P5
+end IMO2025P5
