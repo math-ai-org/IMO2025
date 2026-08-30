@@ -8,6 +8,7 @@ Lean 4 formalizations of problems from the 2025 International Mathematical Olymp
 | --- | --- | --- |
 | 4 | [`IMO2025P4.lean`](./IMO2025P4.lean) | Proved |
 | 5 | [`IMO2025P5.lean`](./IMO2025P5.lean) | Proved |
+| 6 | [`IMO2025P6.lean`](./IMO2025P6.lean) | Proved |
 
 For Problem 4, all possible initial values are
 
@@ -27,6 +28,10 @@ For Problem 5, the Lean encoding classifies every real parameter `c`:
 
 Restricting to the original problem's positive parameter gives Bazza's interval
 `0 < c < 1 / √2`.
+
+For Problem 6, the Lean encoding proves that the minimum number of rectangles
+in a valid `2025 × 2025` configuration is `2112`, including both a construction
+attaining the bound and a universal lower-bound argument.
 
 ## Toolchain
 
@@ -50,6 +55,8 @@ To build one problem only:
 lake build IMO2025P4
 # or
 lake build IMO2025P5
+# or
+lake build IMO2025P6
 ```
 
 ## Repository conventions
