@@ -6,7 +6,18 @@ Lean 4 formalizations of problems from the 2025 International Mathematical Olymp
 
 | Problem | File | Status |
 | --- | --- | --- |
+| 4 | [`IMO2025P4.lean`](./IMO2025P4.lean) | Proved |
 | 5 | [`IMO2025P5.lean`](./IMO2025P5.lean) | Proved |
+
+For Problem 4, all possible initial values are
+
+```text
+a₁ = 6 · 12^k · m,
+```
+
+where `k ≥ 0`, `m` is a positive odd integer, and `5 ∤ m`; equivalently,
+`gcd(m, 10) = 1`. For example, the first nonconstant admissible orbit is
+`72 → 78 → 78 → ⋯`.
 
 For Problem 5, the Lean encoding classifies every real parameter `c`:
 
@@ -33,9 +44,11 @@ cd IMO2025
 lake build
 ```
 
-To build Problem 5 only:
+To build one problem only:
 
 ```bash
+lake build IMO2025P4
+# or
 lake build IMO2025P5
 ```
 
