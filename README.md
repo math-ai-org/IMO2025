@@ -6,10 +6,14 @@ Lean 4 formalizations of problems from the 2025 International Mathematical Olymp
 
 | Problem | File | Status |
 | --- | --- | --- |
+| 1 | [`IMO2025P1.lean`](./IMO2025P1.lean) | Proved |
 | 3 | [`IMO2025P3.lean`](./IMO2025P3.lean) | Proved |
 | 4 | [`IMO2025P4.lean`](./IMO2025P4.lean) | Proved |
 | 5 | [`IMO2025P5.lean`](./IMO2025P5.lean) | Proved |
 | 6 | [`IMO2025P6.lean`](./IMO2025P6.lean) | Proved |
+
+For Problem 1, the Lean encoding proves that the possible numbers of sunny
+lines are exactly `0`, `1`, and `3`.
 
 For Problem 3, the least admissible constant is `4`.
 
@@ -55,6 +59,8 @@ lake build
 To build one problem only:
 
 ```bash
+lake build IMO2025P1
+# or
 lake build IMO2025P3
 # or
 lake build IMO2025P4
