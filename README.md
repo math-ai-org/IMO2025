@@ -6,9 +6,12 @@ Lean 4 formalizations of problems from the 2025 International Mathematical Olymp
 
 | Problem | File | Status |
 | --- | --- | --- |
+| 3 | [`IMO2025P3.lean`](./IMO2025P3.lean) | Proved |
 | 4 | [`IMO2025P4.lean`](./IMO2025P4.lean) | Proved |
 | 5 | [`IMO2025P5.lean`](./IMO2025P5.lean) | Proved |
 | 6 | [`IMO2025P6.lean`](./IMO2025P6.lean) | Proved |
+
+For Problem 3, the least admissible constant is `4`.
 
 For Problem 4, all possible initial values are
 
@@ -52,6 +55,8 @@ lake build
 To build one problem only:
 
 ```bash
+lake build IMO2025P3
+# or
 lake build IMO2025P4
 # or
 lake build IMO2025P5
