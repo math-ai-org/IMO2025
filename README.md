@@ -7,6 +7,7 @@ Lean 4 formalizations of problems from the 2025 International Mathematical Olymp
 | Problem | File | Status |
 | --- | --- | --- |
 | 1 | [`IMO2025P1.lean`](./IMO2025P1.lean) | Proved |
+| 2 | [`IMO2025P2.lean`](./IMO2025P2.lean) | Proved |
 | 3 | [`IMO2025P3.lean`](./IMO2025P3.lean) | Proved |
 | 4 | [`IMO2025P4.lean`](./IMO2025P4.lean) | Proved |
 | 5 | [`IMO2025P5.lean`](./IMO2025P5.lean) | Proved |
@@ -60,6 +61,8 @@ To build one problem only:
 
 ```bash
 lake build IMO2025P1
+# or
+lake build IMO2025P2
 # or
 lake build IMO2025P3
 # or
