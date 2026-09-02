@@ -1,6 +1,6 @@
 name = "IMO2025"
 version = "0.1.0"
-defaultTargets = ["IMO2025P1", "IMO2025P3", "IMO2025P4", "IMO2025P5", "IMO2025P6"]
+defaultTargets = ["IMO2025P1", "IMO2025P2", "IMO2025P3", "IMO2025P4", "IMO2025P5", "IMO2025P6"]
 
 [leanOptions]
 relaxedAutoImplicit = false
@@ -12,6 +12,9 @@ rev = "v4.30.0-rc2"
 
 [[lean_lib]]
 name = "IMO2025P1"
+
+[[lean_lib]]
+name = "IMO2025P2"
 
 [[lean_lib]]
 name = "IMO2025P3"
